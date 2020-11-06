@@ -1,6 +1,274 @@
 /* CSS Styles */
+body {
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
 #google-logo img{
+    padding-bottom: 20px;
     display: block;
     margin: 0 auto;
     padding-top: 109px;
 }
+#top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 28px;
+    margin-top: 15px;
+}
+#nav-logo {
+background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    opacity: 0.55;
+    width: 30px;
+}
+#top-nav-container {
+    display: flex;
+    padding-right: 15px;
+}
+#top-nav .elyfoo2 {
+    padding-left: 15px;
+    list-style-type: none;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    padding-right: 15px;
+}
+#top-nav .elyfoo2 a{
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+#user-nav-logo {
+    padding-left: 15px;
+    cursor: pointer;
+    background-size: 32px 32px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    }
+    #search-bar{
+        background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+        width: 578px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 27px;
+    }
+    .RNNXgb{
+        font-family: arial,sans-serif;
+color: #222;
+font-size: small;
+background: #fff;
+display: flex;
+border: 1px solid #dfe1e5;
+box-shadow: none;
+border-radius: 24px;
+z-index: 3;
+height: 44px;
+margin: 0 auto;
+width: 500px;
+    }
+    .SDkEP{
+        font-family: arial,sans-serif;
+color: #222;
+font-size: small;
+flex: 1;
+display: flex;
+padding: 5px 8px 0 16px;
+padding-left: 14px;
+    }
+    .iblpc{
+        font-family: arial,sans-serif;
+color: #222;
+font-size: small;
+display: flex;
+align-items: center;
+padding-right: 13px;
+margin-top: -5px;
+    }
+    .hsuHs {
+        margin: auto;
+    }
+    .wFncld {
+        margin-top: 3px;
+        color: #9aa0a6;
+        height: 20px;
+        width: 20px;
+    }
+    .z1asCe {
+        display: inline-block;
+        fill: currentColor;
+        height: 24px;
+        line-height: 24px;
+        position: relative;
+        width: 24px;
+    }
+    .a4bIc {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .pR49Ae {
+        color: transparent;
+        flex: 100%;
+        white-space: pre;
+        height: 34px;
+    }
+    .gsfi, .lst {
+        font: 16px arial,sans-serif;
+        color: rgba(0,0,0,.87);
+        line-height: 34px;
+        height: 34px !important;
+    }
+    .gLFyf {
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: rgba(0,0,0,.87);
+        word-wrap: break-word;
+        outline: none;
+        display: flex;
+        flex: 100%;
+        -webkit-tap-highlight-color: transparent;
+        margin-top: -37px;
+        height: 34px;
+        font-size: 16px;
+    }
+    input {
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: textfield;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+    }
+    .dRYYxd {
+        display: flex;
+        flex: 0 0 auto;
+        margin-top: -5px;
+        align-items: stretch;
+        flex-direction: row;
+    }
+    .clear-button {
+        padding-right: 4px;
+        flex: 1 0 auto;
+    display: none;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    line-height: 44px;
+    }
+    .lBbtTb {
+        height: 100%;
+        color: #80868b;
+        vertical-align: middle;
+        outline: none;
+    }
+    .tfB0Bf {
+        height: 70px;
+    }
+    .FPdoLc {
+        padding-top: 18px;
+        top: 53px;
+        z-index: 0;
+    }
+    .tfB0Bf input[type="submit"]{
+        background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+    .EvHmz {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+    .f6F9Be {
+        background: #f2f2f2;
+        line-height: 40px;
+        min-width: 980px;
+        border-top: 1px solid #e4e4e4;
+        min-width: 400px;
+    }
+    .fbar{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .b2hzT {
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .b0KoTc {
+        color: rgba(0,0,0,.54);
+        padding-left: 27px;
+    }
+    .Q8LRLc {
+        font-size: 15px;
+    }
+    #fsr {
+        float: right;
+        margin-right: 30px;
+    }
+    #footer a {
+        color: #5f6368;
+        margin: 2px 10px 0;
+    }
+    #ftby>div, #footer a {
+        display: inline-block;
+    }
+    .Fx4vi {
+        padding-left: 27px;
+        margin: 0 !important;
+    }
